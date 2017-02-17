@@ -6,10 +6,6 @@ core.settings.contrib
 import locale
 import os
 from .base import *  # noqa
-from .secret import (
-    COMMENTS_DISQUS_API_PUBLIC_KEY,
-    COMMENTS_DISQUS_API_SECRET_KEY,
-    COMMENTS_DISQUS_SHORTNAME)
 
 # Store these package names here as they may change in the future since
 # at the moment we are using custom forks of them.
@@ -19,7 +15,7 @@ GRAPPELLI_INSTALLED = True
 
 # Extra installed apps - grapelli needs to be added before others
 INSTALLED_APPS += (
-     'raven.contrib.django.raven_compat',  # enable Raven plugin
+     #'raven.contrib.django.raven_compat',  # enable Raven plugin
      PACKAGE_NAME_GRAPPELLI,
      "celery",
      "config",
