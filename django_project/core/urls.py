@@ -27,6 +27,8 @@ admin.autodiscover()
 
 urlpatterns = i18n_patterns(
     '',
+    #for Symposion Speaker
+    url("^speaker/", include("symposion.speakers.urls")),
 
     # Change the admin prefix here to use an alternate URL for the
     # admin interface, which would be marginally more secure.

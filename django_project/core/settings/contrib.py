@@ -46,8 +46,32 @@ INSTALLED_APPS += (
      "wms_client",
      "cartridge.shop",  # mezzanine store
      "modal_announcements",
-     "symposion",
      "payment",
+     # theme
+     "bootstrapform",
+     "pinax_theme_bootstrap",
+    # external
+     "account",
+     "easy_thumbnails",
+     "eventlog",
+     "markitup",
+     "metron",
+     "reversion",
+     "sitetree",
+     "taggit",
+     "timezones",
+
+    # symposion
+     "symposion",
+     "symposion.boxes",
+     "symposion.cms",
+     "symposion.conference",
+     "symposion.proposals",
+     "symposion.reviews",
+     "symposion.schedule",
+     "symposion.speakers",
+     "symposion.sponsorship",
+     "symposion.teams",
 )
 
 # mezzanine-mdown options
