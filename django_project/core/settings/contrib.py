@@ -50,7 +50,8 @@ INSTALLED_APPS += (
      "wms_client",
      "cartridge.shop",  # mezzanine store
      "modal_announcements",
-     'payment'
+     "symposion",
+     "payment",
 )
 
 # mezzanine-mdown options
